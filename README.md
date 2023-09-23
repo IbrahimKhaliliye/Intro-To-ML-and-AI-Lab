@@ -1,27 +1,21 @@
 # Intro-To-ML-and-AI-Lab
  
-# Machine Learning Lab: Predicting House Prices
+## Predicting House Prices: A Hands-on Lab with TensorFlow
 
-In this lab, you will build a simple neural network using TensorFlow to predict house prices based on a set of house features.
+Welcome back, Developers! 🚀 Remember the TensorFlow magic from our last lecture? Let's put it to use!
 
-## Prerequisites
+### Objective:
 
-- Familiarity with Python.
-- Basic understanding of TensorFlow and the Keras API.
+By the end of this lab, you'll:
+- Set up a neural network model.
+- Train this model on sample house data.
+- Use this model to predict house prices.
 
-## Objective
+### Setting the Stage
 
-Implement a neural network model to predict house prices and evaluate its performance using mean squared error. Additionally, you'll test your model with user input to predict custom house prices.
+1. **Environment Setup**
 
-## Setup
-
-Make sure you have the following libraries installed:
-
-- TensorFlow
-- NumPy
-- scikit-learn
-
-You can install them using pip:
+   Ensure you've got TensorFlow, NumPy, and scikit-learn ready. If not:
 
 ```bash
 pip install tensorflow numpy scikit-learn
