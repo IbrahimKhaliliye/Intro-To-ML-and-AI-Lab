@@ -56,11 +56,24 @@ pip install tensorflow numpy scikit-learn
 
 2. **Building the Model**
 
-   Implement a neural network with the following architecture:
-   - An input layer with 32 neurons and ReLU activation.
-   - A hidden layer with 16 neurons and ReLU activation.
-   - An output layer to predict the house price.
-   - Use `mean_squared_error` as the loss function and the `adam` optimizer.
+  ## Constructing the Neural Network
+
+Let's craft our own neural network!
+
+1. **Input Layer**:
+   - 32 neurons
+   - Activation: ReLU
+   
+2. **Hidden Layer**:
+   - 16 neurons
+   - Activation: ReLU
+   
+3. **Output Layer**:
+   - Just 1 neuron for predicting house price
+
+Once you've constructed the model, don't forget to compile it. Use:
+   - Loss function: `mean_squared_error`
+   - Optimizer: `adam`
 
 3. **Training and Evaluation**
 
