@@ -62,11 +62,11 @@ Let's craft our own neural network!
 
 1. **Input Layer**:
    - 32 neurons
-   - Activation: ReLU
+   - Activation: `ReLU`
    
 2. **Hidden Layer**:
    - 16 neurons
-   - Activation: ReLU
+   - Activation: `ReLU`
    
 3. **Output Layer**:
    - Just 1 neuron for predicting house price
@@ -81,12 +81,9 @@ Once you've constructed the model, don't forget to compile it. Use:
 
 4. **Predicting User's House Price**
 
-   After building and training your model, prompt the user to enter details about their house: number of rooms, garden size, and distance to the nearest school. Use your model to predict the house price based on these inputs and display the predicted price.
+   Here is the fun part. After building and training your model, prompt the user to enter details about their house: number of rooms, garden size, and distance to the nearest school. Use your model to predict the house price based on these inputs and display the predicted price.
 
-## Challenge
+## Challenge 🌟
+Can you refine your model to be more accurate? Play around with it! Maybe add more layers, and neurons, or change the activation functions.
 
-Optimize your model to reduce the mean squared error further. Experiment with different architectures, loss functions, or training parameters.
-
----
-
-**Once you've completed the lab, please show your work to an instructor or TA for review.**
+Remember, the journey is more important than the destination. Don't hesitate to ask if you're stuck. Happy coding! 🎉
