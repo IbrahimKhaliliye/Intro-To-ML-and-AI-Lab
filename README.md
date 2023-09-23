@@ -23,9 +23,9 @@ Make sure you have the following libraries installed:
 
 You can install them using pip:
 
-\```bash
+```bash
 pip install tensorflow numpy scikit-learn
-\```
+```
 
 ## Instructions
 
@@ -33,7 +33,7 @@ pip install tensorflow numpy scikit-learn
 
    We've provided mock data for this lab. Copy the code below into your Python environment:
 
-   \```python
+   ```python
    import tensorflow as tf
    import numpy as np
    from sklearn.model_selection import train_test_split
@@ -58,7 +58,7 @@ pip install tensorflow numpy scikit-learn
 
    # Split data into training and testing
    X_train, X_test, y_train, y_test = train_test_split(data, prices, test_size=0.2, random_state=42)
-   \```
+   ```
 
 2. **Building the Model**
 
