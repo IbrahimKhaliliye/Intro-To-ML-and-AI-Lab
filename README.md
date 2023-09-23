@@ -83,8 +83,8 @@ Once you've constructed the model, don't forget to compile it. Use:
 
    Here is the fun part. After building and training your model, prompt the user to enter details about their house: number of rooms, garden size, and distance to the nearest school. Use your model to predict the house price based on these inputs and display the predicted price.
 
-##### Great job!
-##### Call an Instructor/TA to check your completed tasks
+ ****Great job!****
+  ****Call an Instructor/TA to check your completed tasks****
  
  
 ## Challenge 🌟
