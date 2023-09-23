@@ -66,7 +66,7 @@ Let's craft our own neural network!
    
 2. **Hidden Layer**:
    - 16 neurons
-   - Activation: `ReLU`
+   - Activation: `ReLu`
    
 3. **Output Layer**:
    - Just 1 neuron for predicting house price
