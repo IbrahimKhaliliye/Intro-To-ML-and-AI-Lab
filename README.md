@@ -25,7 +25,7 @@ pip install tensorflow numpy scikit-learn
 
 1. **Setting Up Data**
 
-   We've provided mock data for this lab. Copy the code below into your Python environment:
+   We've prepared mock house data for you. Copy this into your Python environment:
 
    ```python
    import tensorflow as tf
