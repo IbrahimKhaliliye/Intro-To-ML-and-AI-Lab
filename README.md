@@ -77,9 +77,12 @@ Once you've constructed the model, don't forget to compile it. Use:
 
 3. **Training and Evaluation**
 
-   Train your model with the provided training data. Additionally, evaluate your model on the testing data and print out the mean squared error.
+   Train your model using the `X_train` and `y_train` datasets. Once done, evaluate its performance using the test datasets `(X_test and y_test)` and display the resulting `mean squared error`.
 
-4. **Predicting User's House Price**
+   `Hint`: Once you've evaluated your model on the test data, it will return a value. This value is the Mean Squared Error (MSE) between your model's predictions and the true values. Try capturing this return value and formatting it to print a clean  
+   MSE result.
+
+5. **Predicting User's House Price**
 
    Here is the fun part. After building and training your model, prompt the user to enter details about their house: number of rooms, garden size, and distance to the nearest school. Use your model to predict the house price based on these inputs and display the predicted price.
 
